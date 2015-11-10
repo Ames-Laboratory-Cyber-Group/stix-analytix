@@ -1,0 +1,409 @@
+DEBUG:root:Args: Namespace(debug=False, files=[<open file 'stix-samples/CRISP-15-445-All_Sites.transform.alert.xml', mode 'r' at 0x7fa0d24b2420>, <open file 'stix-samples/CRISP-15-479-All_Sites.isa.xml', mode 'r' at 0x7fa0d24b24b0>, <open file 'stix-samples/STIX_Domain_Watchlist.xml', mode 'r' at 0x7fa0d24b2540>, <open file 'stix-samples/STIX_Email_wAttachment.xml', mode 'r' at 0x7fa0d24b25d0>], includeleaves=False, log=True, xsd=None)
+INFO:root:Generated input etree fromstix-samples/CRISP-15-445-All_Sites.transform.alert.xml
+INFO:root:Generated Analytic object
+INFO:root:Generated input etree fromstix-samples/CRISP-15-479-All_Sites.isa.xml
+INFO:root:Generated Analytic object
+INFO:root:Generated input etree fromstix-samples/STIX_Domain_Watchlist.xml
+INFO:root:Generated Analytic object
+INFO:root:Generated input etree fromstix-samples/STIX_Email_wAttachment.xml
+INFO:root:Generated Analytic object
+INFO:root:Generated schema etree fromxsds/cybox_core.xsd
+INFO:root:Addedxsds/cybox_core.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Route_Object.xsd
+INFO:root:Addedxsds/Network_Route_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/open_ioc_2010_test_mechanism.xsd
+INFO:root:Addedxsds/open_ioc_2010_test_mechanism.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/stix_common.xsd
+INFO:root:Addedxsds/stix_common.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_User_Account_Object.xsd
+INFO:root:Addedxsds/Win_User_Account_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Network_Route_Entry_Object.xsd
+INFO:root:Addedxsds/Win_Network_Route_Entry_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/cvrf_1.1_vulnerability.xsd
+INFO:root:Addedxsds/cvrf_1.1_vulnerability.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Account_Object.xsd
+INFO:root:Addedxsds/Account_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Socket_Object.xsd
+INFO:root:Addedxsds/Network_Socket_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/maec_4.1_malware.xsd
+INFO:root:Addedxsds/maec_4.1_malware.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/URL_History_Object.xsd
+INFO:root:Addedxsds/URL_History_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/generic_test_mechanism.xsd
+INFO:root:Addedxsds/generic_test_mechanism.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xAL-types.xsd
+INFO:root:Addedxsds/xAL-types.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/SMS_Message_Object.xsd
+INFO:root:Addedxsds/SMS_Message_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ISAMarkingsType.xsd
+INFO:root:Addedxsds/ISAMarkingsType.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Thread_Object.xsd
+INFO:root:Addedxsds/Win_Thread_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Task_Object.xsd
+INFO:root:Addedxsds/Win_Task_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/exploit_target.xsd
+INFO:root:Addedxsds/exploit_target.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Archive_File_Object.xsd
+INFO:root:Addedxsds/Archive_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_Volume_Object.xsd
+INFO:root:Addedxsds/Unix_Volume_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Semaphore_Object.xsd
+INFO:root:Addedxsds/Win_Semaphore_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Event_Log_Object.xsd
+INFO:root:Addedxsds/Win_Event_Log_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/snort_test_mechanism.xsd
+INFO:root:Addedxsds/snort_test_mechanism.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Process_Object.xsd
+INFO:root:Addedxsds/Win_Process_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Hook_Object.xsd
+INFO:root:Addedxsds/Win_Hook_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Subnet_Object.xsd
+INFO:root:Addedxsds/Network_Subnet_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Packet_Object.xsd
+INFO:root:Addedxsds/Network_Packet_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Registry_Key_Object.xsd
+INFO:root:Addedxsds/Win_Registry_Key_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Library_Object.xsd
+INFO:root:Addedxsds/Library_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Waitable_Timer_Object.xsd
+INFO:root:Addedxsds/Win_Waitable_Timer_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xlink-2003-12-31.xsd
+INFO:root:Addedxsds/xlink-2003-12-31.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Pipe_Object.xsd
+INFO:root:Addedxsds/Pipe_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/GUI_Window_Object.xsd
+INFO:root:Addedxsds/GUI_Window_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/stix_default_vocabularies.xsd
+INFO:root:Addedxsds/stix_default_vocabularies.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/cybox_default_vocabularies.xsd
+INFO:root:Addedxsds/cybox_default_vocabularies.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ciq_3.0_identity.xsd
+INFO:root:Addedxsds/ciq_3.0_identity.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/PDF_File_Object.xsd
+INFO:root:Addedxsds/PDF_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Memory_Object.xsd
+INFO:root:Addedxsds/Memory_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Pipe_Object.xsd
+INFO:root:Addedxsds/Win_Pipe_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/cpe-language_2.3.xsd
+INFO:root:Addedxsds/cpe-language_2.3.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xNL.xsd
+INFO:root:Addedxsds/xNL.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xNAL.xsd
+INFO:root:Addedxsds/xNAL.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Code_Object.xsd
+INFO:root:Addedxsds/Code_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Image_File_Object.xsd
+INFO:root:Addedxsds/Image_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/yara_test_mechanism.xsd
+INFO:root:Addedxsds/yara_test_mechanism.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/data_marking.xsd
+INFO:root:Addedxsds/data_marking.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/indicator.xsd
+INFO:root:Addedxsds/indicator.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Mutex_Object.xsd
+INFO:root:Addedxsds/Win_Mutex_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/stix_core.xsd
+INFO:root:Addedxsds/stix_core.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/oval_5.10_test_mechanism.xsd
+INFO:root:Addedxsds/oval_5.10_test_mechanism.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/X509_Certificate_Object.xsd
+INFO:root:Addedxsds/X509_Certificate_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/System_Object.xsd
+INFO:root:Addedxsds/System_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Mailslot_Object.xsd
+INFO:root:Addedxsds/Win_Mailslot_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/File_Object.xsd
+INFO:root:Addedxsds/File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xNL-types.xsd
+DEBUG:root:xsds/xNL-types.xsdis a duplicate of another XSD using namespace: urn:oasis:names:tc:ciq:xnl:3
+INFO:root:Generated schema etree fromxsds/DNS_Cache_Object.xsd
+INFO:root:Addedxsds/DNS_Cache_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xPIL.xsd
+INFO:root:Addedxsds/xPIL.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Disk_Object.xsd
+INFO:root:Addedxsds/Disk_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Link_Object.xsd
+INFO:root:Addedxsds/Link_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ciq_3.0_address.xsd
+INFO:root:Addedxsds/ciq_3.0_address.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xAL.xsd
+DEBUG:root:xsds/xAL.xsdis a duplicate of another XSD using namespace: urn:oasis:names:tc:ciq:xal:3
+INFO:root:Generated schema etree fromxsds/cpe-naming_2.3.xsd
+INFO:root:Addedxsds/cpe-naming_2.3.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Email_Message_Object.xsd
+INFO:root:Addedxsds/Email_Message_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_Pipe_Object.xsd
+INFO:root:Addedxsds/Unix_Pipe_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Linux_Package_Object.xsd
+INFO:root:Addedxsds/Linux_Package_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/DNS_Record_Object.xsd
+INFO:root:Addedxsds/DNS_Record_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Executable_File_Object.xsd
+INFO:root:Addedxsds/Win_Executable_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/cpe2.3.xsd
+INFO:root:Addedxsds/cpe2.3.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Volume_Object.xsd
+INFO:root:Addedxsds/Volume_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_Network_Route_Entry_Object.xsd
+INFO:root:Addedxsds/Unix_Network_Route_Entry_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/course_of_action.xsd
+INFO:root:Addedxsds/course_of_action.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/generic_structured_coa.xsd
+INFO:root:Addedxsds/generic_structured_coa.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/API_Object.xsd
+INFO:root:Addedxsds/API_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Connection_Object.xsd
+INFO:root:Addedxsds/Network_Connection_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Event_Object.xsd
+INFO:root:Addedxsds/Win_Event_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/GUI_Dialogbox_Object.xsd
+INFO:root:Addedxsds/GUI_Dialogbox_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Address_Object.xsd
+INFO:root:Addedxsds/Address_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/AS_Object.xsd
+INFO:root:Addedxsds/AS_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Artifact_Object.xsd
+INFO:root:Addedxsds/Artifact_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/cybox_common.xsd
+INFO:root:Addedxsds/cybox_common.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/report.xsd
+INFO:root:Addedxsds/report.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xPIL-types.xsd
+DEBUG:root:xsds/xPIL-types.xsdis a duplicate of another XSD using namespace: urn:oasis:names:tc:ciq:xpil:3
+INFO:root:Generated schema etree fromxsds/incident.xsd
+INFO:root:Addedxsds/incident.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Route_Entry_Object.xsd
+INFO:root:Addedxsds/Network_Route_Entry_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/campaign.xsd
+INFO:root:Addedxsds/campaign.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Mutex_Object.xsd
+INFO:root:Addedxsds/Mutex_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ttp.xsd
+INFO:root:Addedxsds/ttp.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Service_Object.xsd
+INFO:root:Addedxsds/Win_Service_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_File_Object.xsd
+INFO:root:Addedxsds/Unix_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Hostname_Object.xsd
+INFO:root:Addedxsds/Hostname_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Kernel_Object.xsd
+INFO:root:Addedxsds/Win_Kernel_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Disk_Partition_Object.xsd
+INFO:root:Addedxsds/Disk_Partition_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Prefetch_Object.xsd
+INFO:root:Addedxsds/Win_Prefetch_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/URI_Object.xsd
+INFO:root:Addedxsds/URI_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ISAMarkingsAssertionsType.xsd
+INFO:root:Addedxsds/ISAMarkingsAssertionsType.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/CommonTypes.xsd
+INFO:root:Addedxsds/CommonTypes.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Critical_Section_Object.xsd
+INFO:root:Addedxsds/Win_Critical_Section_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Handle_Object.xsd
+INFO:root:Addedxsds/Win_Handle_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Volume_Object.xsd
+INFO:root:Addedxsds/Win_Volume_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Memory_Page_Region_Object.xsd
+INFO:root:Addedxsds/Win_Memory_Page_Region_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_File_Object.xsd
+INFO:root:Addedxsds/Win_File_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Socket_Address_Object.xsd
+INFO:root:Addedxsds/Socket_Address_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Semaphore_Object.xsd
+INFO:root:Addedxsds/Semaphore_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xml.xsd
+INFO:root:Addedxsds/xml.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Port_Object.xsd
+INFO:root:Addedxsds/Port_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/capec_2.7_attack_pattern.xsd
+INFO:root:Addedxsds/capec_2.7_attack_pattern.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Device_Object.xsd
+INFO:root:Addedxsds/Device_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Product_Object.xsd
+INFO:root:Addedxsds/Product_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_User_Account_Object.xsd
+INFO:root:Addedxsds/Unix_User_Account_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/simple_marking.xsd
+INFO:root:Addedxsds/simple_marking.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Unix_Process_Object.xsd
+INFO:root:Addedxsds/Unix_Process_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Process_Object.xsd
+INFO:root:Addedxsds/Process_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Kernel_Hook_Object.xsd
+INFO:root:Addedxsds/Win_Kernel_Hook_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/GUI_Object.xsd
+INFO:root:Addedxsds/GUI_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/tlp_marking.xsd
+INFO:root:Addedxsds/tlp_marking.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/xNAL-types.xsd
+DEBUG:root:xsds/xNAL-types.xsdis a duplicate of another XSD using namespace: urn:oasis:names:tc:ciq:xnal:3
+INFO:root:Generated schema etree fromxsds/Win_Computer_Account_Object.xsd
+INFO:root:Addedxsds/Win_Computer_Account_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ciq_address_3.0.xsd
+INFO:root:Addedxsds/ciq_address_3.0.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Domain_Name_Object.xsd
+INFO:root:Addedxsds/Domain_Name_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/terms_of_use_marking.xsd
+INFO:root:Addedxsds/terms_of_use_marking.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/User_Account_Object.xsd
+INFO:root:Addedxsds/User_Account_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/SD-EDH_Profile_Cyber.xsd
+INFO:root:Addedxsds/SD-EDH_Profile_Cyber.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/HTTP_Session_Object.xsd
+INFO:root:Addedxsds/HTTP_Session_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/User_Session_Object.xsd
+INFO:root:Addedxsds/User_Session_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Network_Share_Object.xsd
+INFO:root:Addedxsds/Win_Network_Share_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Filemapping_Object.xsd
+INFO:root:Addedxsds/Win_Filemapping_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/DNS_Query_Object.xsd
+INFO:root:Addedxsds/DNS_Query_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Network_Flow_Object.xsd
+INFO:root:Addedxsds/Network_Flow_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Whois_Object.xsd
+INFO:root:Addedxsds/Whois_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/ARP_Cache_Object.xsd
+INFO:root:Addedxsds/ARP_Cache_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Custom_Object.xsd
+INFO:root:Addedxsds/Custom_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_Driver_Object.xsd
+INFO:root:Addedxsds/Win_Driver_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_System_Restore_Object.xsd
+INFO:root:Addedxsds/Win_System_Restore_Object.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/threat_actor.xsd
+INFO:root:Addedxsds/threat_actor.xsdto schema locations
+INFO:root:Generated schema etree fromxsds/Win_System_Object.xsd
+INFO:root:Addedxsds/Win_System_Object.xsdto schema locations
+DEBUG:root:Input tree root is {http://stix.mitre.org/stix-1}STIX_Package
+INFO:root:Title added to return dictionary
+INFO:root:Package_Intent added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Profile added to return dictionary
+INFO:root:Profiles added to return dictionary
+INFO:root:Controlled_Structure added to return dictionary
+INFO:root:ControlSet added to return dictionary
+INFO:root:Marking_Structure added to return dictionary
+INFO:root:Marking added to return dictionary
+INFO:root:Handling added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Name added to return dictionary
+INFO:root:Identity added to return dictionary
+INFO:root:Produced_Time added to return dictionary
+INFO:root:Time added to return dictionary
+INFO:root:Information_Source added to return dictionary
+INFO:root:STIX_Header added to return dictionary
+INFO:root:Title added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Encoding added to return dictionary
+INFO:root:Packaging added to return dictionary
+INFO:root:Raw_Artifact added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Type added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Address_Value added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Type added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Address_Value added to return dictionary
+INFO:root:From added to return dictionary
+INFO:root:Header added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Indicators added to return dictionary
+INFO:root:STIX_Package added to return dictionary
+INFO:root:Statistics have been successfully generated
+DEBUG:root:Input tree root is {http://stix.mitre.org/stix-1}STIX_Package
+INFO:root:Title added to return dictionary
+INFO:root:Package_Intent added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Profile added to return dictionary
+INFO:root:Profiles added to return dictionary
+INFO:root:Controlled_Structure added to return dictionary
+INFO:root:ControlSet added to return dictionary
+INFO:root:Marking_Structure added to return dictionary
+INFO:root:Marking added to return dictionary
+INFO:root:Handling added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Name added to return dictionary
+INFO:root:Identity added to return dictionary
+INFO:root:Produced_Time added to return dictionary
+INFO:root:Time added to return dictionary
+INFO:root:Information_Source added to return dictionary
+INFO:root:STIX_Header added to return dictionary
+INFO:root:Title added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Encoding added to return dictionary
+INFO:root:Packaging added to return dictionary
+INFO:root:Raw_Artifact added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Type added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Address_Value added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Type added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Address_Value added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Indicators added to return dictionary
+INFO:root:STIX_Package added to return dictionary
+INFO:root:Statistics have been successfully generated
+DEBUG:root:Input tree root is {http://stix.mitre.org/stix-1}STIX_Package
+INFO:root:Title added to return dictionary
+INFO:root:Package_Intent added to return dictionary
+INFO:root:STIX_Header added to return dictionary
+INFO:root:Type added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Value added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Indicator added to return dictionary
+INFO:root:Indicators added to return dictionary
+INFO:root:STIX_Package added to return dictionary
+INFO:root:Statistics have been successfully generated
+DEBUG:root:Input tree root is {http://stix.mitre.org/stix-1}STIX_Package
+INFO:root:Title added to return dictionary
+INFO:root:Package_Intent added to return dictionary
+INFO:root:STIX_Header added to return dictionary
+INFO:root:Description added to return dictionary
+INFO:root:Raw_Body added to return dictionary
+INFO:root:Raw_Header added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:File_Name added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Encoding added to return dictionary
+INFO:root:Encryption added to return dictionary
+INFO:root:Packaging added to return dictionary
+INFO:root:Raw_Artifact added to return dictionary
+INFO:root:Properties added to return dictionary
+INFO:root:Relationship added to return dictionary
+INFO:root:Related_Object added to return dictionary
+INFO:root:Related_Objects added to return dictionary
+INFO:root:Relationship added to return dictionary
+INFO:root:Related_Object added to return dictionary
+INFO:root:Related_Objects added to return dictionary
+INFO:root:Object added to return dictionary
+INFO:root:Observable added to return dictionary
+INFO:root:Observables added to return dictionary
+INFO:root:STIX_Package added to return dictionary
+INFO:root:Statistics have been successfully generated
