@@ -6,8 +6,9 @@
 	xmlns:EmailMessageObj="http://cybox.mitre.org/objects#EmailMessageObject-2"
 	xmlns:ArtifactObj="http://cybox.mitre.org/objects#ArtifactObject-2"
 	xmlns:marking="http://data-marking.mitre.org/Marking-1"
-	xmlns:isaa="http://data-marking.mitre.org/extensions/MarkingAssertion#EDH2Cyber-1"
-	xmlns:edh2cyberMarking="http://data-marking.mitre.org/extensions/MarkingStructure#EDH2Cyber-1"
+	xmlns:isaa="http://www.us-cert.gov/essa/Markings/ISAMarkingAssertions"
+	xmlns:edh2cyberMarkingAssert="http://data-marking.mitre.org/extensions/MarkingAssertion#EDH2Cyber-1"
+	xmlns:edh2cyberMarking="http://www.us-cert.gov/essa/Markings/ISAMarkings"
 	xmlns:indicator="http://stix.mitre.org/Indicator-2"
 	xmlns:stixCommon="http://stix.mitre.org/common-1"
 	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
@@ -22,8 +23,8 @@
 	http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd
 	http://cybox.mitre.org/objects#ArtifactObject-2 http://cybox.mitre.org/XMLSchema/objects/Artifact/2.1/Artifact_Object.xsd
 	http://data-marking.mitre.org/Marking-1 http://stix.mitre.org/XMLSchema/data_marking/1.1.1/data_marking.xsd
-	http://data-marking.mitre.org/extensions/MarkingAssertion#EDH2Cyber-1 ISAMarkingsAssertionsType.xsd
-	http://data-marking.mitre.org/extensions/MarkingStructure#EDH2Cyber-1 ISAMarkingsType.xsd
+	http://www.us-cert.gov/essa/Markings/ISAMarkingAssertions ISAMarkingsAssertionsType.xsd
+	http://www.us-cert.gov/essa/Markings/ISAMarkings ISAMarkingsType.xsd
 	http://stix.mitre.org/Indicator-2 http://stix.mitre.org/XMLSchema/indicator/2.1.1/indicator.xsd
 	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
 	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
@@ -40,8 +41,7 @@
             <marking:Marking>
                 <marking:Controlled_Structure>//node()</marking:Controlled_Structure>
                 <marking:Marking_Structure xsi:type='isaa:ISAMarkingsAssertionType' isam_version="1.0" most_restrictive="true">
-                    <edh2:Identifier>isa:guide.999191.0d4345fd-4e42-59b7-b2b8-a3fb1c370bd8</edh2:Identifier>
-                    <edh2:ControlSet>CLS:U FD:FOUO</edh2:ControlSet>
+                    <isaa:ControlSet>CLS:U FD:FOUO</isaa:ControlSet>
                 </marking:Marking_Structure>
             </marking:Marking>
         </stix:Handling>
