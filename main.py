@@ -171,7 +171,7 @@ class FileStats:
         #Get overall statistics for the file
         self.attr_percent = (self.attr_present / float(get_total_possible_attributes()))*100
         self.child_percent = (self.el_count / float(get_total_possible_elements()))*100
-        self.overall_percent = (self.el_count + self.attr_present) / float(get_total_possible_elements() + get_total_possible_attributes())
+        self.overall_percent = (self.el_count + self.attr_present) / float(get_total_possible_elements() + get_total_possible_attributes())*100
         logging.info("Statistics have been successfully generated")
 
 class Analytic:
@@ -180,7 +180,7 @@ class Analytic:
         self.schemas = {}
         self.stats = FileStats(stix.filename)
         self.info = {}#Holds all relevant information from the stixinput files including children, attributes, and statistic
-        logging.info('Generated Analytic object')
+        logging.info('Generated Analytic ostix_reportbject')
     
     """Retrieve all the namespaces and schemalocations needed to validate
         `root`.
